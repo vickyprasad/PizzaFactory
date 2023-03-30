@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class PizzaService implements Toppings, Sides, Inventory {
+public class PizzaService implements Toppings, Sides {
 	static List<Pizza> vegPizza = new ArrayList<>();
 	static List<Pizza> nonVegPizza = new ArrayList<>();
 	static List<Order> orderList = new ArrayList<>();
